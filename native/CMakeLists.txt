@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(bcell_native LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_library(bcell_native SHARED src/bcell_native.cpp)
+target_include_directories(bcell_native PUBLIC include)
+set_target_properties(bcell_native PROPERTIES OUTPUT_NAME "bcell_native")

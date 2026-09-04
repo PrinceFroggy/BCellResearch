@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/emulatorfarm/Public/BCellResearch/native/build-macos/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

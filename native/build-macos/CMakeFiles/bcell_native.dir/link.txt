@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -o libbcell_native.dylib -install_name @rpath/libbcell_native.dylib CMakeFiles/bcell_native.dir/src/bcell_native.cpp.o

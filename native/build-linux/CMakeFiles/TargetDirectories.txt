@@ -1,0 +1,3 @@
+/mnt/data/BCellResearchAvalonia/native/build-linux/CMakeFiles/bcell_native.dir
+/mnt/data/BCellResearchAvalonia/native/build-linux/CMakeFiles/edit_cache.dir
+/mnt/data/BCellResearchAvalonia/native/build-linux/CMakeFiles/rebuild_cache.dir

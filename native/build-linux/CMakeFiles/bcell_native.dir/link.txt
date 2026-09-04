@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wl,--dependency-file=CMakeFiles/bcell_native.dir/link.d -shared -Wl,-soname,libbcell_native.so -o libbcell_native.so CMakeFiles/bcell_native.dir/src/bcell_native.cpp.o

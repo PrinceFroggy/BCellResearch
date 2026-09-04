@@ -1,0 +1,7 @@
+clone_id,antibody_sequence,antigen,memory_cell,confidence
+clone_001,EVQLVESGG,SARS-CoV-2 spike,true,0.96
+clone_002,QVQLVQSGA,Influenza HA,true,0.93
+clone_003,DIQMTQSP,SARS-CoV-2 RBD,true,0.91
+clone_004,EVQLQQSGA,Tetanus toxoid,true,0.88
+clone_005,QVQLKESGP,SARS-CoV-2 nucleocapsid,false,0.70
+clone_006,EVQLVQSGA,Unknown,true,0.35

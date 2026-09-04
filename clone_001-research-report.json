@@ -1,0 +1,39 @@
+{
+  "generatedUtc": "2026-09-04T04:17:44.785559+00:00",
+  "mode": "research-only / non-operational",
+  "clone": {
+    "CloneId": "clone_001",
+    "AntibodySequence": "EVQLVESGG",
+    "Antigen": "SARS-CoV-2 spike",
+    "MemoryCell": true,
+    "Confidence": 0.96
+  },
+  "scores": {
+    "LocalScore": 0.996,
+    "EvidenceBoost": 0.05,
+    "CombinedScore": 1,
+    "Classification": "candidate"
+  },
+  "publicEvidence": {
+    "IedbMatches": 3,
+    "EvidenceStatus": "DEMO evidence: simulated contextual hits: 3"
+  },
+  "workflow": {
+    "WorkflowStage": "simulated",
+    "EvidenceValidated": true,
+    "ValidationNotes": "Contextual public evidence present and candidate threshold met. Experimental binding confirmation is still required.",
+    "RiskGatePassed": true,
+    "RiskNotes": "Research-data quality gate passed. No clinical safety or efficacy conclusion is implied.",
+    "HumanApproved": true,
+    "ApprovalNotes": "Research workflow approved by Andrew. Approval authorizes simulation/reporting only; not patient treatment.",
+    "SimulationCompleted": true,
+    "SimulationSummary": "Sandbox result: persistent-memory-associated candidate with limited public-context records. Next real-world research step would require independent laboratory validation and institutional oversight. No intervention plan, dose, molecular construct, or device command was generated.",
+    "LastUpdatedUtc": "2026-09-04T04:17:36.565475+00:00"
+  },
+  "restrictions": [
+    "Not for diagnosis or treatment",
+    "Does not generate biological intervention instructions",
+    "Does not control laboratory or medical equipment",
+    "Public API evidence is contextual and requires independent validation"
+  ]
+}

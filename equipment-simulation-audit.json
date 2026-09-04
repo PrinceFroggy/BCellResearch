@@ -1,0 +1,68 @@
+{
+  "profile": {
+    "EquipmentId": "SIM-LAB-001",
+    "DisplayName": "Simulated Cell-Processing Controller",
+    "Vendor": "Research Simulator",
+    "Model": "Digital Twin v1",
+    "Endpoint": "sim://localhost/cell-controller",
+    "Capabilities": [
+      "candidate-receipt",
+      "dry-run-job-queue",
+      "telemetry",
+      "interlock-status",
+      "acknowledgement",
+      "audit-export"
+    ]
+  },
+  "generated_at": "2026-09-04T04:18:55.976305+00:00",
+  "safety_mode": "NON_EXECUTABLE_SIMULATION_ONLY",
+  "audit": [
+    {
+      "at": "2026-09-04T04:18:34.396438+00:00",
+      "type": "connect_requested",
+      "detail": "Simulator connection requested"
+    },
+    {
+      "at": "2026-09-04T04:18:34.748418+00:00",
+      "type": "connected",
+      "detail": "Connected to sim://localhost/cell-controller"
+    },
+    {
+      "at": "2026-09-04T04:18:39.647672+00:00",
+      "type": "job_queued",
+      "detail": {
+        "JobId": "DRY-21CA6801069B",
+        "CandidateId": "clone_001",
+        "Mode": "NON_EXECUTABLE_SIMULATION"
+      }
+    },
+    {
+      "at": "2026-09-04T04:18:46.214345+00:00",
+      "type": "job_state",
+      "detail": {
+        "JobId": "DRY-21CA6801069B",
+        "Status": "Accepted"
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "JobId": "DRY-21CA6801069B",
+      "CandidateId": "clone_001",
+      "CreatedAt": "2026-09-04T04:18:39.646373+00:00",
+      "Mode": "NON_EXECUTABLE_SIMULATION",
+      "RequestedAction": "Simulate downstream equipment workflow",
+      "Metadata": {
+        "classification": "candidate",
+        "combined_score": "0.996",
+        "antigen_annotation": "SARS-CoV-2 spike",
+        "safety_boundary": "No executable biological, dosing, editing, or device-control parameters included"
+      },
+      "Status": "Accepted",
+      "Events": [
+        "2026-09-04T04:18:39.6465980\u002B00:00 queued as non-executable simulation envelope",
+        "2026-09-04T04:18:46.2141730\u002B00:00 state =\u003E Accepted"
+      ]
+    }
+  ]
+}
