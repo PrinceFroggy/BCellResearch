@@ -6,6 +6,8 @@ The application provides a desktop environment for exploring B-cell clone datase
 
 > **Research software only:** This project is intended for software development, research-data exploration, education, and simulation. It is not a clinical diagnostic tool and does not directly control laboratory equipment.
 
+<img width="1277" height="649" alt="Image 2026-09-04 at 12 32 AM" src="https://github.com/user-attachments/assets/8cad2c3a-cbc8-44dc-a33d-6a22cb6b5d5f" />
+
 ---
 
 ## Overview
